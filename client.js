@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:8080/');
+var socket = io.connect('https://obscure-harbor-82082.herokuapp.com/');
 var user = '',
     quit = 0;
 
