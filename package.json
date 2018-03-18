@@ -5,14 +5,16 @@
   "main": "main.js",
   "dependencies": {
     "http": "^0.0.0",
-    "express": "^4.16.3",
+    "express": "*",
     "path": "^0.12.7",
-    "socket.io": "^2.0.4"
+    "socket.io": "*"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
+  },
+  "engines": {
+    "node": "8.5.0"
   },
   "repository": {
     "type": "git",
