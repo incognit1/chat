@@ -1,0 +1,26 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Node.js chat",
+  "main": "main.js",
+  "dependencies": {
+    "http": "^0.0.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incognit1/chat.git"
+  },
+  "author": "Vlad Leshchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incognit1/chat/issues"
+  },
+  "homepage": "https://github.com/incognit1/chat#readme"
+}
